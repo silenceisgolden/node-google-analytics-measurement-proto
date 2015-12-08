@@ -1,0 +1,33 @@
+{
+  "name": "google-analytics-measurement-protocol",
+  "description": "Node library to send data to the Google Analytics Measurement Protocol.",
+  "repository": "silenceisgolden/node-google-analytics-measurement-proto",
+  "version": "0.0.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/silenceisgolden/node-google-analytics-measurement-proto/issues",
+    "email": "aj@logicallyabstract.com"
+  },
+  "author": {
+    "name": "Alexander Klein",
+    "email": "aj@logicallyabstract.com"
+  },
+  "keywords": [],
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^2.3.4",
+    "nock": "^3.4.0"
+  },
+  "scripts": {
+    "open-coverage": "open coverage/lcov-report/*.html",
+    "test": "istanbul cover _mocha && istanbul-coveralls",
+    "test-local": "istanbul cover _mocha",
+    "test-local-debug": "DEBUG=google-analytics-measurement-protocol istanbul cover _mocha"
+  },
+  "license": "MIT"
+}
