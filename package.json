@@ -2,8 +2,7 @@
   "name": "google-analytics-measurement-protocol",
   "description": "Node library to send data to the Google Analytics Measurement Protocol.",
   "repository": "silenceisgolden/node-google-analytics-measurement-proto",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
   "bugs": {
     "url": "https://github.com/silenceisgolden/node-google-analytics-measurement-proto/issues",
     "email": "aj@logicallyabstract.com"
